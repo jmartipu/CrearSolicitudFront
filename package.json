@@ -1,0 +1,19 @@
+{
+  "name": "crearsolicitudfront",
+  "version": "1.0.0",
+  "description": "FrontEnd de la aplicación crear solicitudes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmartipu/CrearSolicitudFront.git"
+  },
+  "author": "focusgroup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmartipu/CrearSolicitudFront/issues"
+  },
+  "homepage": "https://github.com/jmartipu/CrearSolicitudFront#readme"
+}
