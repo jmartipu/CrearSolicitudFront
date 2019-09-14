@@ -11,9 +11,12 @@
     "url": "git+https://github.com/jmartipu/CrearSolicitudFront.git"
   },
   "author": "focusgroup",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jmartipu/CrearSolicitudFront/issues"
   },
-  "homepage": "https://github.com/jmartipu/CrearSolicitudFront#readme"
+  "homepage": "https://github.com/jmartipu/CrearSolicitudFront#readme",
+  "dependencies": {
+    "@angular/cli": "^8.3.4"
+  }
 }
