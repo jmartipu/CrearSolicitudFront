@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ng test",
-    "ng": "ng",
-    "start": "ng serve --port 5000",
-    "build": "ng build",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "cd crea-solicitud-front && npm start"
   },
   "repository": {
     "type": "git",
@@ -23,5 +19,8 @@
   "homepage": "https://github.com/jmartipu/CrearSolicitudFront#readme",
   "dependencies": {
     "@angular/cli": "^7.3.9"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   }
 }
