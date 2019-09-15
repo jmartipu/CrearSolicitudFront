@@ -66,7 +66,7 @@ export class AuthService extends CacheService implements IAuthService{
     password: string
   ): Observable<IServerAuthResponse>{
     this.httpClient.post(`${environment.baseUrl}${environment.targetSolicitudesServer}:${environment.targetSolicitudesPort}${environment.targetapiToken}`,
-      `{"username": "${username}", "password": "${password}"}`::).subscribe(
+      `{"username": "${username}", "password": "${password}"}`,this.httpOptions).subscribe(
       data => {
 
         this.username = username;
