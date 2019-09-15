@@ -4,6 +4,11 @@
 
 export const environment = {
   production: false,
+  baseUrl: 'http://',
+  targetSolicitudesServer: '127.0.0.1',
+  targetSolicitudesPort: '8000',
+  targetSolicitudesContext: '/api/v1/solicitudes/',
+  targetapiToken: '/api-token-auth/',
 }
 
 /*
